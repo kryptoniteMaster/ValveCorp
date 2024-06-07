@@ -1,0 +1,410 @@
+body {
+    font-family: "apercu", -apple-system, system, sans-serif;
+    background-color: #000000;
+    color: #000;
+    padding: 0;
+    border: none;
+    font-size: 5vw;
+    position: relative;
+    min-height: calc(100% - 200px);
+}
+
+@media (min-width: 820px) {
+    body {
+        font-size: 1.67vw;
+        padding-bottom: 170px;
+    }   
+}
+
+@media (min-width: 668px) {
+    body {
+        font-size: 2.5vw;
+    }
+}
+
+.site_wrapper {
+    overflow-x: hidden;
+}
+
+@media (min-width: 820px) {
+    p, ul, ol, div {
+        line-height: 1.6;
+    }
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header.main_header {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    min-height: 75px;
+}
+
+header.main_header .header_inner_wrapper {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1360px;
+    position: relative;
+}
+
+header {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+p, ul, ol, div {
+    font-weight: 200;
+    line-height: 1.4;
+}
+
+header.main_header .top_nav {
+    position: relative;
+    margin: 40px 5vw 0;
+}
+
+header.main_header .logo {
+    width: 110px;
+}
+
+header.main_header .logo a {
+    border: none;
+}
+
+a, a:hover, a:visited, a:active {
+    color: #f74843;
+    text-decoration: none;
+}
+
+/* a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+} */
+
+svg:not(:root) {
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+}
+
+/* :not(svg) {
+    transform-origin: 0px 0px;
+} */
+
+/* rect[Attributes] {
+    x: 1;
+    y: -1;
+    width: 436;
+    height: 124.06;
+} */
+
+header.main_header .logo .cls-2 {
+    fill: #f74843;
+    transition: fill 500ms linear;
+}
+
+myVideo02 {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    filter:opacity(50%);
+}#
+
+#page_background_videos {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+/* content space */
+
+.main-content {
+    padding-top: 170px;
+}
+
+.main-content ul {
+    padding-left: 150px;
+}
+
+.main-content ul li{
+    list-style: none;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.main-content ul li a{
+    color: #f74843;
+    font-size: 160%;
+    font-weight: 900;
+    line-height: 1;
+    transition: opacity 500ms linear, max-height 500ms linear, padding 250ms linear;
+    max-height: 3000px;
+    height: auto;
+    opacity: 1;
+    margin-top: 20px;
+}
+
+.top-text {
+    font-size: 90%;
+    font-weight: 800;
+    margin-bottom: 0;
+    line-height: 1.3;
+    font-family: "apercu", -apple-system, system, sans-serif;
+    padding-left: 0px;
+    margin-left: -25px;
+}
+
+.in-text {
+    font-family: "apercu", -apple-system, system, sans-serif;
+    color: #fff;
+    margin-left: 55px;
+    font-size: 60%;
+}
+pre a {
+    color: #f74843;
+}
+
+pre a:hover {
+    color: white;
+}
+
+.searchParent {
+    margin-top: -80px;
+    padding-bottom: 100px;
+}
+
+.searchParent input {
+    color: #f74843;
+    border-bottom: 2px #fff solid;
+    background: transparent;
+    border-radius: unset;
+    outline: none;
+    border: none;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    margin-left: 900px;
+    font-size: 50%;
+    width: 30%;
+    border-bottom: 2px #ffffff solid;
+    
+}
+
+.searchParent input::placeholder{
+    color: #fff;
+}
+
+input, button {
+    font-family: "apercu", -apple-system, system, sans-serif;
+    box-sizing: border-box;
+    width: 40px;
+
+}
+
+.searchParent .searchbutton {
+    background: transparent;
+    border: none;
+    border-radius: unset;
+    background-image: url(https://cdn.akamai.steamstatic.com/valvesoftware/images/search.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-indent: -9999px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+}
+
+.searchParent .clearbutton {
+    background: transparent;
+    border: none;
+    border-radius: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-indent: -9999px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+}
+
+/* Footer */
+
+.main_footer {
+    margin-top: 100px;
+    margin-bottom: -300px;
+    padding-bottom: 10px;
+}
+.main-content ul li a:hover{
+    color: #fff;
+}
+
+footer.main_footer {
+    background: #f74843;
+    color: #fff;
+    height: 200px;
+}
+
+footer {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+footer.main_footer .main_footer_inner_wrapper {
+    width: calc(100% - 10vw);
+    margin: 0 auto;
+    max-width: 1200px;
+    position: relative;
+    padding: 0 5vw;
+    display: table;
+    clear: both;
+}
+
+footer.main_footer .main_footer_inner_wrapper {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1360px;
+}
+
+footer.main_footer .main_footer_inner_wrapper {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1360px;
+}
+
+.col_2 {
+    width: 11.874%;
+}
+
+@media (max-width: 819px) {
+    .col_1, .col_2, .col_3, .col_4, .col_5, .col_6, .col_7, .col_8, .col_9, .col_10, .col_11, .col_12 {
+        padding: 10px 0;
+        display: block;
+        margin-right: 0;
+        width: 100% !important;
+    }
+}
+
+.col_1, .col_2, .col_3, .col_4, .col_5, .col_6, .col_7, .col_8, .col_9, .col_10, .col_11, .col_12 {
+    padding: 10px 0;
+    display: block;
+    /* float: left; */
+    margin-right: 5.75%;
+}
+
+footer.main_footer .corp_name {
+    font-size: 16px;
+    text-align: left;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+footer.main_footer .corp_name a {
+    color: #fff;
+}
+
+a, a:visited, a:active {
+    color: #000000;
+    text-decoration: none;
+}
+
+.row {
+    width: 100%;
+    margin: 25px 0;
+}
+
+.row::after, .row::before {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.col_3 {
+    width: 20.686%;
+    margin-left: 1000px;
+    margin-top: -180px;
+}
+
+footer.main_footer .footer_steam_logos > div.steam_logo {
+    width: 34%;
+    position: relative;
+    margin-right: 5%;
+}
+
+footer.main_footer .footer_steam_logos > div.steam_logo::after {
+    content: "";
+    border-right: 1px #fff solid;
+    height: 60%;
+    position: absolute;
+    right: -15%;
+    top: 0;
+    margin-top: 20%;
+}
+
+footer.main_footer .footer_steam_logos > div {
+    float: left;
+}
+
+footer.main_footer .footer_steam_logos img {
+    width: 100%;
+}
+
+footer.main_footer .footer_steam_logos > div.steamworks_logo {
+    width: 48%;
+    margin-left: 5%;
+}
+
+.newf {
+    margin-left: 400px;
+    font-size: 100%;
+    margin-top: -60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.newf ul {
+   margin-right: 120px;
+   margin-bottom: 60px;
+}
+.newf ul li {
+    list-style: none;
+    font-size: 30%;
+    margin-top: 6px;
+    font-weight: 500;
+}
+
+.new ul li a {
+    color: black;
+}
+.newf a:hover {
+    color: #fff;
+}
+
+.kontak, .stuff, .MoreStuff {
+    font-weight: 700;
+}
+
